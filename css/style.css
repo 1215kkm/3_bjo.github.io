@@ -1,0 +1,193 @@
+body {width: 1920px !important;overflow: hidden !important;background:url('../images/background.png')}
+
+.title {width: 1200px;height: 300px;margin:20px 0 0 64px;float:left;overflow: visible!important;}
+.title ul li{font-size: 120px;color:black;letter-spacing: -0.05em;font-family: "sb";margin-top: -80px;}
+.title ul li:nth-child(1){margin: 0;}
+
+.sub_title {width: 145px;height: 145px;float: right;margin:30px 64px 0 0;}
+
+.sub_title .aboutme {float:right;margin-top: 35px;cursor: pointer;position: relative}
+.sub_title .aboutme:hover p a {color:#9d0707; transition: 0.2s all}
+.sub_title .aboutme p{font-family: "sb";font-size: 20px;color:black !important;letter-spacing: -0.075em}
+.sub_title .aboutme .line1{display: block;width: 103px;height: 3px;background:black;margin-top: -15px;z-index: 2;}
+.sub_title .aboutme .line2{display: block;width: 0px;height: 3px;background:#9d0707;margin-top: -15px;position: absolute;top:52px;left:0;z-index: 3;opacity: 0.8}
+
+.sub_title .aboutme:hover .line2{display: block;width: 103px;height: 3px;transition: 0.3s all}
+.sub_title .aboutme:hover .line1{display: block;width: 0px;height: 3px;}
+
+
+.sub_title ul{float:right;margin-top: 40px;font-family: "나눔고딕";font-size: 15px;letter-spacing: -0.025em;font-weight: 700;opacity: 0.9}
+.sub_title ul li:last-child{margin-top: 0px;float: right;margin-top: -2px;}
+
+.owl-prev {display: none}
+.owl-next {display: none}
+
+
+#demos {position: absolute;top:43%;width: 1920px;left:74px}
+.owl-carousel .item1 {width: 300px !important;height: 420px !important;margin-right: 50px!important;overflow: hidden !important}
+.owl-carousel .item1:hover img{transition: 0.3s all;transform: scale(1.1) !important}
+
+.square1 {width: 300px;height: 420px;background:#4d4344;position: absolute;opacity: 0;z-index: 2}
+.owl-carousel .item1:hover .square1{opacity: 0.5;transition: 0.4s all}
+
+.item1 p {position: absolute;z-index: 2;font-family: "나눔고딕";top:10px;left:10px;font-weight: 400;color:white;font-size: 17px;letter-spacing: -0.05em;opacity: 0;}
+.item1:hover p {position: absolute;z-index: 2;font-family: "나눔고딕";top:10px;left:10px;font-weight: 400;color:white;font-size: 17px;letter-spacing: -0.05em;opacity: 0.9;transition:0.3s all}
+
+
+.owl-carousel .item2 {width: 300px !important;height: 420px !important;margin-right: 50px!important;overflow: hidden !important;position: relative !important}
+.owl-carousel .item2:hover img{transition: 0.3s all;transform: scale(1.1) !important}
+
+.square2 {width: 300px;height: 420px;background:#1f1b18;position: absolute;opacity: 0;z-index: 2;top:0;left:0}
+.owl-carousel .item2:hover .square2{opacity: 0.8;transition: 0.4s all}
+
+.item2 p {position: absolute;z-index: 2;font-family: "나눔고딕";top:10px;left:10px;font-weight: 400;color:white;font-size: 17px;letter-spacing: -0.05em;opacity: 0;}
+.item2:hover p {position: absolute;z-index: 2;font-family: "나눔고딕";top:10px;left:10px;font-weight: 400;color:white;font-size: 17px;letter-spacing: -0.05em;opacity: 0.9;transition:0.3s all}
+
+.owl-carousel .item3 {width: 300px !important;height: 420px !important;margin-right: 50px!important;overflow: hidden !important;position: relative !important}
+.owl-carousel .item3:hover img{transition: 0.3s all;transform: scale(1.1) !important}
+
+.square3 {width: 300px;height: 420px;background:white;position: absolute;opacity: 0;z-index: 2;top:0;left:0}
+.owl-carousel .item3:hover .square3{opacity: 0.7;transition: 0.4s all}
+
+.item3 p {position: absolute;z-index: 2;font-family: "나눔고딕";top:10px;left:10px;font-weight: 400;color:black;font-size: 17px;letter-spacing: -0.05em;opacity: 0;}
+.item3:hover p {position: absolute;z-index: 2;font-family: "나눔고딕";top:10px;left:10px;font-weight: 400;color:black;font-size: 17px;letter-spacing: -0.05em;opacity: 0.9;transition:0.3s all}
+
+
+.owl-carousel .item4 {width: 300px !important;height: 420px !important;margin-right: 50px!important;overflow: hidden !important;position: relative !important}
+.owl-carousel .item4:hover img{transition: 0.3s all;transform: scale(1.1) !important}
+
+.square4 {width: 300px;height: 420px;background:#9d1212;position: absolute;opacity: 0;z-index: 2;top:0;left:0}
+.owl-carousel .item4:hover .square4{opacity: 0.7;transition: 0.4s all}
+
+.item4 p {position: absolute;z-index: 2;font-family: "나눔고딕";top:10px;left:10px;font-weight: 400;color:white;font-size: 17px;letter-spacing: -0.05em;opacity: 0;}
+.item4:hover p {position: absolute;z-index: 2;font-family: "나눔고딕";top:10px;left:10px;font-weight: 400;color:white;font-size: 17px;letter-spacing: -0.05em;opacity: 0.9;transition:0.3s all}
+
+.owl-carousel .item5 {width: 300px !important;height: 420px !important;margin-right: 50px!important;overflow: hidden !important;position: relative !important}
+.owl-carousel .item5:hover img{transition: 0.3s all;transform: scale(1.1) !important}
+
+.square5 {width: 300px;height: 420px;background:#2c292a;position: absolute;opacity: 0;z-index: 2;top:0;left:0}
+.owl-carousel .item5:hover .square5{opacity: 0.7;transition: 0.4s all}
+
+.item5 p {position: absolute;z-index: 2;font-family: "나눔고딕";top:10px;left:10px;font-weight: 400;color:white;font-size: 17px;letter-spacing: -0.05em;opacity: 0;}
+.item5:hover p {position: absolute;z-index: 2;font-family: "나눔고딕";top:10px;left:10px;font-weight: 400;color:white;font-size: 17px;letter-spacing: -0.05em;opacity: 0.9;transition:0.3s all}
+
+.owl-carousel .item6 {width: 300px !important;height: 420px !important;margin-right: 50px!important;overflow: hidden !important;position: relative !important}
+.owl-carousel .item6:hover img{transition: 0.3s all;transform: scale(1.1) !important}
+
+.square6 {width: 300px;height: 420px;background:#c0903c;position: absolute;opacity: 0;z-index: 2;top:0;left:0}
+.owl-carousel .item6:hover .square6{opacity: 0.7;transition: 0.4s all}
+
+.item6 p {position: absolute;z-index: 2;font-family: "나눔고딕";top:10px;left:10px;font-weight: 400;color:white;font-size: 17px;letter-spacing: -0.05em;opacity: 0;}
+.item6:hover p {position: absolute;z-index: 2;font-family: "나눔고딕";top:10px;left:10px;font-weight: 400;color:white;font-size: 17px;letter-spacing: -0.05em;opacity: 0.9;transition:0.3s all}
+
+
+.owl-carousel .item7 {width: 300px !important;height: 420px !important;margin-right: 50px!important;overflow: hidden !important;position: relative !important}
+.owl-carousel .item7:hover img{transition: 0.3s all;transform: scale(1.1) !important}
+
+.square7 {width: 300px;height: 420px;background:#c7a589;position: absolute;opacity: 0;z-index: 2;top:0;left:0}
+.owl-carousel .item7:hover .square7{opacity: 0.7;transition: 0.4s all}
+
+.item7 p {position: absolute;z-index: 2;font-family: "나눔고딕";top:10px;left:10px;font-weight: 400;color:white;font-size: 17px;letter-spacing: -0.05em;opacity: 0;}
+.item7:hover p {position: absolute;z-index: 2;font-family: "나눔고딕";top:10px;left:10px;font-weight: 400;color:white;font-size: 17px;letter-spacing: -0.05em;opacity: 0.9;transition:0.3s all}
+
+
+.owl-carousel .item8 {width: 300px !important;height: 420px !important;margin-right: 50px!important;overflow: hidden !important;position: relative !important}
+.owl-carousel .item8:hover img{transition: 0.3s all;transform: scale(1.1) !important}
+
+.square8 {width: 300px;height: 420px;background:#cb2338;position: absolute;opacity: 0;z-index: 2;top:0;left:0}
+.owl-carousel .item8:hover .square8{opacity: 0.7;transition: 0.4s all}
+
+.item8 p {position: absolute;z-index: 2;font-family: "나눔고딕";top:10px;left:10px;font-weight: 400;color:white;font-size: 17px;letter-spacing: -0.05em;opacity: 0;}
+.item8:hover p {position: absolute;z-index: 2;font-family: "나눔고딕";top:10px;left:10px;font-weight: 400;color:white;font-size: 17px;letter-spacing: -0.05em;opacity: 0.9;transition:0.3s all}
+
+#footer {width: 100%;height: 60px;position: absolute;bottom:0 ;letter-spacing: -0.025em;left:1%}
+#footer ul{float:left;margin-top: 10px;margin-left: 50px;}
+#footer ul li{float:left;margin: 0 15px;line-height: 22px;font-family: "나눔고딕";font-size: 15px;letter-spacing: -0.025em;font-weight: 700;opacity: 0.9}
+#footer .notefolio {float: right;margin-right: 50px;}
+#footer .notefolio:hover {transition: 0.2s all;transform:scale(0.9);opacity: 0.8}
+
+
+
+
+/** about me **/
+#sub_wrap {width: 1920px;height: 100vh;overflow: hidden !important}
+h2{font-family: "sb";font-size: 27px;color:black;letter-spacing: -0.075em}
+.titleline{width: 24px;height: 5px;background:black;display: block;margin-top: 10px;}
+
+#left_side{width: 273px;height: 900px;z-index: 10;margin: 30px 0 0 40px;float:left}
+#skills {width: 273px;height: 440px;;}
+
+#skills ul {margin-top: 20px;letter-spacing: -0.05em;font-weight:400}
+#skills .titlee{font-weight: bold}
+#skills .firstul {margin-top: 35px;}
+#skills ul li{font-family: "나눔고딕";font-size: 16px;;}
+#skills .overline{display: block;width: 188px;height: 3px;background:#8a8a8a;margin-top: 10px;position: relative}
+
+#skills .realline1{display: block;position: absolute;top:0;background:black;width: 180px;height: 3px;}
+#skills .realline2{display: block;position: absolute;top:0;background:black;width: 170px;height: 3px;}
+#skills .realline3{display: block;position: absolute;top:0;background:black;width: 120px;height: 3px;}
+#skills .realline4{display: block;position: absolute;top:0;background:black;width: 100px;height: 3px;}
+#skills .realline5{display: block;position: absolute;top:0;background:black;width: 180px;height: 3px;}
+#skills .realline6{display: block;position: absolute;top:0;background:black;width: 100px;height: 3px;}
+#skills .realline7{display: block;position: absolute;top:0;background:black;width: 180px;height: 3px;}
+
+#overseas {width: 273px;height: 228px;margin-top: 50px;}
+#overseas ul {margin-top: 20px;letter-spacing: -0.05em;font-weight:400}
+#overseas ul li{font-family: "나눔고딕";font-size: 16px;margin-top: 15px;}
+#overseas ul li:nth-child(3){margin-top: 40px;}
+
+#experience {width: 273px;height: 158px;margin-top: 20px;}
+#experience ul {margin-top: 20px;letter-spacing: -0.05em;font-weight:400}
+#experience ul li{font-family: "나눔고딕";font-size: 16px;margin-top: 15px;}
+
+
+#right_side{width: 310px;height: 900px;z-index: 11;float:left;margin:30px 0 0 190px}
+
+#awards {width: 310px;height: 374px;float:left}
+#awards ul {margin-top: 20px;letter-spacing: -0.05em;font-weight:400}
+#awards ul li{font-family: "나눔고딕";font-size: 16px;margin-top: 30px;}
+
+#education {width: 310px;height: 310px;float:left;margin-top: 46px}
+#education ul {margin-top: 20px;letter-spacing: -0.05em;font-weight:400}
+#education ul li{font-family: "나눔고딕";font-size: 16px;margin-top: 10px;}
+#education ul li:nth-child(3){margin-top: 40px;}
+
+#certification {width: 310px;height: 137px;float:left;margin-top: 46px}
+#certification ul {margin-top: 20px;letter-spacing: -0.05em;font-weight:400}
+#certification ul li{font-family: "나눔고딕";font-size: 16px;margin-top: 10px;}
+
+
+#introduction {width: 781px;height: 900px;float:left;margin:30px 0 0 250px}
+#introduction .ment1 {width: 781px;height: 221px;opacity: 0.8;margin-top: 80px;}
+#introduction .ment1 h3{margin-top: 15px;font-size: 20px;font-weight: 400;width: 135px;}
+#introduction .ment1 h3 span{font-weight: bold;display: block;float:right}
+#introduction .ment1 p{margin-top: 15px;font-size: 15px;word-break: keep-all;line-height: 25px;letter-spacing: -0.05em}
+
+
+#introduction .ment2 {width: 781px;height: 222px;opacity: 0.8;margin-top: 57px;}
+#introduction .ment2 .circles .one {width: 35px;height: 35px;border-radius: 20px;background:black;display: block;float:left}
+#introduction .ment2 .circles .two {width: 35px;height: 35px;border-radius: 20px;background:gray;display: block;float:left;margin-left: -10px;}
+
+#introduction .ment2 h3{margin-top: 15px;font-size: 20px;font-weight: 400;width: 180px;clear: both;padding-top: 13px;}
+#introduction .ment2 h3 span{font-weight: bold;display: block;float:right}
+#introduction .ment2 p{margin-top: 15px;font-size: 15px;word-break: keep-all;line-height: 25px;letter-spacing: -0.05em}
+
+
+#introduction .ment3 {width: 781px;height: 239px;opacity: 0.8;margin-top: 60px;overflow: hidden}
+#introduction .ment3 .circles2 {position: relative}
+#introduction .ment3 .circles2 .g1 {width: 50px;height: 50px;border-radius: 50px;background:rgba(0,0,0,0.5);display: block;float:left;}
+#introduction .ment3 .circles2 .g2 {width: 35px;height: 35px;border-radius: 35px;background:rgba(0,0,0,0.7);display: block;position: absolute;left:7px;top:7px}
+#introduction .ment3 .circles2 .g3 {width: 20px;height: 20px;border-radius: 20px;background:rgba(0,0,0,1);display: block;position: absolute;left:14px;top:14px}
+
+#introduction .ment3 h3{margin-top: 70px;font-size: 20px;font-weight: 400;width: 180px;clear: both;}
+#introduction .ment3 h3 span{font-weight: bold;display: block;float:right}
+#introduction .ment3 p{margin-top: 15px;font-size: 15px;word-break: keep-all;line-height: 25px;letter-spacing: -0.05em}
+
+#toproject {width: 50px;height: 50px;background:gray;position: absolute;top:50px;right:100px;cursor: pointer;transition: 0.3s all;;background-attachment: fixed}
+#toproject .upline{width: 2px;height: 25px;display: block;background:white;transform:rotate(45deg);margin:5px 0 0 22px;}
+#toproject .downline{width: 2px;height: 25px;display: block;background:white;transform:rotate(-45deg);margin:-8px 0 0 22px;}
+
+#toproject:hover {background:black}
+#toproject:hover .upline{background:orange;width: 3px;height: 20px;margin:10px 0 0 22px;transition:0.3s all}
+#toproject:hover .downline{background:orange;width: 3px;height: 20px;transition:0.3s all}
+
